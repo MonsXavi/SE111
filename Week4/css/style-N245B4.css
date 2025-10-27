@@ -1,0 +1,101 @@
+body{
+
+    margin:-10px;
+    background-color:rgb(0, 0, 0);
+    background-image: url("images/floors.jpg");
+}
+
+#bg{
+    background-image: url(../images/bg.png);
+    background-size:cover;
+    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.655);
+    min-height:2200px;
+
+}
+#header{
+    background-image:url("../images/Howls-Moving-Castle.avif");
+    background-position:center top;
+    min-height:280px;
+    background-size:cover;
+    background-repeat:no-repeat;
+
+}
+#wrapper{
+
+    background-color:rgba(0, 0, 0, 0.63);
+    width:980px;
+    padding:25px;
+    margin:auto;
+    box-shadow:3px 3px 5px black;
+    border-radius:5px;
+    min-height:1000px;
+}
+/*BORDERS------------------------------------------------------------------*/
+
+
+.border-un {
+
+    border:1px solid rgba(56, 111, 228, 0.295);
+    border-radius:5px;
+    margin-bottom:10px;
+
+
+}
+.btn-container{
+    width: 620px;
+    height: 50px;
+    margin: auto;
+    padding: 5px;
+}
+.link-button{
+    width:200px;
+    height:50px;
+    text-align:center;
+    line-height:50px;
+    text-decoration:none;
+    display:block;
+    float:left;
+    margin-right:2px;
+    margin-left:2px;
+    background-color:rgba(0, 0, 0, 0.253);
+    font-family: 'Ghibli Bold', sans-serif;
+    box-shadow:3px 3px 5px rgb(51, 50, 50);
+
+}
+.link-button:hover{
+    background-color:rgba(0, 0, 0, 0);
+    background-image:url(../images/linkBG.png);
+    font-size:30px;
+    color:rgb(2, 2, 2);
+    
+}
+.link-button{
+    color: white;  
+}
+
+
+
+@font-face {
+    font-family: 'Ghibli Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Ghibli Regular'), url('../fonts/Eyad Al-Samman - Ghibli.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Ghibli Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Ghibli Bold'), url('../fonts/Eyad Al-Samman - Ghibli-Bold.woff') format('woff');
+    }
+
+    h1{
+        font-family: "Ghibli Bold";
+        text-align: center;
+        font-size: 100px;
+    }
+    h2{
+        text-align: center;
+        font-family: "Ghibli Regular";
+    }

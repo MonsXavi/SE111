@@ -1,0 +1,77 @@
+  
+  <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Studio Ghibli</title>
+</head>
+  
+<body>  
+    <div id = "bg">
+    <div id ="wrapper">
+    <div id="header" class="border-un">
+            <h1>Studio Ghibli</h1>
+        </div>
+
+        <!-- NAVIGATION -->
+        <div id="nav-bar" class="border-un">
+            <div class="btn-container">
+                <a href="../index.html" class="link-button">Home</a>
+                <a href="Cast.html" class="link-button">Cast</a>
+                <a href="Review.html" class="link-button">Review</a>
+            </div>
+        </div>
+
+        <!-- CUSTOMER REVIEW SECTION -->
+        <div class="border-un">
+            <h2>Leave a Review</h2>
+            <p class="text">Share your thoughts about Studio Ghibli! Tell us about your favorite films, characters, or experiences.</p>
+
+            <form class="text" action="#" method="post">
+                <label for="name">Your Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your name" style="width:400px; height:25px;"><br><br>
+
+                <label for="email">Email (optional):</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email" style="width:400px; height:25px;"><br><br>
+
+                <label for="rating">Rating:</label><br>
+                <select id="rating" name="rating" style="width:200px; height:30px;">
+                    <option value="5">★★★★★ Excellent</option>
+                    <option value="4">★★★★☆ Great</option>
+                    <option value="3">★★★☆☆ Good</option>
+                    <option value="2">★★☆☆☆ Fair</option>
+                    <option value="1">★☆☆☆☆ Poor</option>
+                </select><br><br>
+
+                <label for="message">Your Review:</label><br>
+                <textarea id="message" name="message" rows="5" cols="60" placeholder="Write your review here..."></textarea><br><br>
+
+                <button type="submit" style="width:150px; height:40px; font-family:'Ghibli Bold'; background-color:rgba(56, 111, 228, 0.295); color:white; border:none; border-radius:5px; box-shadow:3px 3px 5px black;">Submit</button>
+            </form>
+        </div>
+
+        <!-- DISPLAYED CUSTOMER REVIEWS -->
+        <div class="border-un">
+            <h2>Recent Customer Reviews</h2>
+
+            <div class="text">
+                <p><strong>★ ★ ★ ★ ★ – Herny k.</strong><br>
+                “Absolutely love everything about Studio Ghibli! The art, the emotion, and the storytelling are unmatched.”</p><hr>
+
+                <p><strong>★ ★ ★ ★ ☆ – Alex R.</strong><br>
+                “My kids and I watch <em>My Neighbor Totoro</em> at least once a month. It never gets old!”</p><hr>
+
+                <p><strong>★ ★ ★ ★ ★ – Jamie T.</strong><br>
+                “Beautiful movies with heart. Visiting the Ghibli Museum was one of the best experiences of my life.”</p>
+            </div>
+        </div>
+
+    </div>
+      <footer>
+            <p>&copy; Movies</p>
+        </footer>
+    
+</div>
+</body>
+</html>
